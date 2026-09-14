@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <main className="min-h-screen" style={{ backgroundColor: 'var(--color-bg)', color: 'var(--color-text)' }}>
       <Navbar />
-      <div style={{ padding: '0 24px' }}>
+      <div style={{ padding: '0 60px' }}>
         <HeroSection />
         <AboutSection />
         <SkillsSection />
