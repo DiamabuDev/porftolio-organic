@@ -113,7 +113,7 @@ export default function ProjectsSection() {
               <p style={{ fontSize: '17px', lineHeight: 1.65, margin: '0 0 16px', opacity: 0.82 }}>
                 {p.summary}
               </p>
-              <span className="proj-more" style={{ fontSize: '14px', color: 'var(--color-accent-700)', borderBottom: '1px solid var(--color-accent-300)', paddingBottom: '2px' }}>
+              <span className="proj-more" style={{ fontSize: '14px', color: 'var(--color-accent-text)', borderBottom: '1px solid var(--color-section-bg)', paddingBottom: '2px' }}>
                 Read more
               </span>
             </div>

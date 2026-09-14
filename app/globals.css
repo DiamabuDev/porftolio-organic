@@ -47,7 +47,7 @@ a {
 }
 
 a:hover {
-  color: var(--color-accent-700);
+  color: var(--color-accent-text);
 }
 
 .text-muted {
