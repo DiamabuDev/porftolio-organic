@@ -8,7 +8,7 @@
   --color-bg: #f5ead8;
   --color-surface: #ebddc5;
   --color-text: #201e1d;
-  --color-accent: #c67139;
+  --color-accent: #821D30;
   --color-accent-2: #7a8a5e;
   --color-divider: rgba(32, 30, 29, 0.16);
 }
@@ -30,8 +30,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Caprasimo', Georgia, serif;
-  font-weight: 400;
+  font-family: 'Poppins', system-ui, sans-serif;
+  font-weight: 600;
   line-height: 1.12;
   letter-spacing: -0.015em;
 }

@@ -2,7 +2,7 @@
 
 export default function CTASection() {
   return (
-    <section style={{ maxWidth: '1180px', margin: '0 auto 96px', padding: '0 48px' }}>
+    <section style={{ maxWidth: '100%', margin: '0 auto 96px', padding: '0 32px' }}>
       <div style={{ background: 'var(--color-accent-2-200)', borderRadius: 'calc(var(--radius-lg) * 1.6)', padding: '72px 64px', display: 'grid', gridTemplateColumns: '1.1fr 0.9fr', gap: '56px', alignItems: 'center' }}>
         <h2 style={{ fontSize: 'clamp(30px, 3.2vw, 44px)', lineHeight: 1.14, margin: 0 }}>
           Have a question sitting in a spreadsheet somewhere?

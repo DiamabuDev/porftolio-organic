@@ -2,7 +2,7 @@
 
 export default function HeroSection() {
   return (
-    <section id="top" style={{ maxWidth: '1180px', margin: '0 auto', padding: '76px 48px 96px', position: 'relative' }}>
+    <section id="top" style={{ maxWidth: '100%', margin: '0 auto', padding: '76px 32px 96px', position: 'relative' }}>
       <div style={{ position: 'relative', display: 'grid', gridTemplateColumns: '1.05fr 1fr', gap: '48px', alignItems: 'center' }}>
         <div>
           <p className="text-muted" style={{ fontSize: '13px', letterSpacing: '0.12em', textTransform: 'uppercase', margin: '0 0 22px' }}>

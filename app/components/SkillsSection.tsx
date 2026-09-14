@@ -21,7 +21,7 @@ export default function SkillsSection() {
   ];
 
   return (
-    <section id="skills" style={{ background: 'var(--color-surface)', borderRadius: 'var(--radius-lg)', maxWidth: '1180px', margin: '0 auto', padding: '64px 56px' }}>
+    <section id="skills" style={{ background: 'var(--color-surface)', borderRadius: 'var(--radius-lg)', maxWidth: '100%', margin: '0 auto', padding: '64px 32px' }}>
       <span className="tag tag-outline" style={{ padding: '8px 20px', fontSize: '13px' }}>
         Technical skills
       </span>

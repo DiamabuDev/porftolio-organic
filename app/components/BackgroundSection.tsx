@@ -56,7 +56,7 @@ export default function BackgroundSection() {
   ];
 
   return (
-    <section id="background" style={{ maxWidth: '1180px', margin: '0 auto', padding: '96px 48px' }}>
+    <section id="background" style={{ maxWidth: '100%', margin: '0 auto', padding: '96px 32px' }}>
       <span className="tag tag-outline" style={{ padding: '8px 20px', fontSize: '13px' }}>
         Education &amp; experience
       </span>

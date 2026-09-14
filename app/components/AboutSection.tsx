@@ -2,7 +2,7 @@
 
 export default function AboutSection() {
   return (
-    <section id="about" style={{ maxWidth: '1180px', margin: '0 auto', padding: '88px 48px' }}>
+    <section id="about" style={{ maxWidth: '100%', margin: '0 auto', padding: '88px 32px' }}>
       <p className="text-muted" style={{ fontSize: '13px', letterSpacing: '0.12em', textTransform: 'uppercase', margin: '0 0 32px' }}>
         About me
       </p>

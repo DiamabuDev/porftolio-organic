@@ -53,7 +53,7 @@ export default function ProjectsSection() {
   ];
 
   return (
-    <section id="work" style={{ maxWidth: '1180px', margin: '0 auto', padding: '104px 48px 64px' }}>
+    <section id="work" style={{ maxWidth: '100%', margin: '0 auto', padding: '104px 32px 64px' }}>
       <div style={{ display: 'flex', alignItems: 'flex-end', justifyContent: 'space-between', gap: '40px', marginBottom: '56px' }}>
         <div>
           <p className="text-muted" style={{ fontSize: '13px', letterSpacing: '0.12em', textTransform: 'uppercase', margin: '0 0 16px' }}>
