@@ -9,7 +9,7 @@ export default function HeroSection() {
             Data &amp; Analytics Portfolio
           </p>
           <h1 style={{ fontSize: 'clamp(46px, 5.4vw, 78px)', lineHeight: 1.04, margin: '0 0 26px' }}>
-            Hi, I am <span style={{ color: 'var(--color-accent-700)' }}>Diana Maldonado</span>
+            Hi, I am <span style={{ color: 'var(--color-accent)' }}>Diana Maldonado</span>
           </h1>
           <p style={{ fontSize: '19px', lineHeight: 1.6, maxWidth: '44ch', margin: '0 0 34px' }}>
             I work across the whole path from raw data to decision-making. Pipelines, models, dashboards, and the analysis behind them.
