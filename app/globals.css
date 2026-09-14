@@ -126,15 +126,15 @@ a:hover {
 .nav {
   display: flex;
   align-items: center;
-  gap: 17.6px;
-  padding: 13.2px 17.6px;
+  gap: 28px;
+  padding: 0;
   border-bottom: none;
 }
 
 .nav-brand {
   font-family: 'Poppins', system-ui, sans-serif;
-  font-weight: 400;
-  font-size: 18px;
+  font-weight: 600;
+  font-size: 28px;
   margin-right: auto;
   color: var(--color-text);
 }
@@ -142,7 +142,7 @@ a:hover {
 .nav a {
   color: inherit;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 18px;
   transition: color 260ms ease;
 }
 

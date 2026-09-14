@@ -11,7 +11,7 @@ export default function Navbar() {
         backdropFilter: 'blur(10px)',
       }}
     >
-      <div className="nav" style={{ maxWidth: '1180px', margin: '0 auto', padding: '18px 48px' }}>
+      <div className="nav" style={{ width: '100%', padding: '24px 32px' }}>
         <Link href="#top" className="nav-brand">
           Diana Maldonado
         </Link>
