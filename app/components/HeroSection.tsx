@@ -5,7 +5,7 @@ export default function HeroSection() {
     <section id="top" style={{ maxWidth: '100%', margin: '0 auto', padding: '76px 32px 96px', position: 'relative' }}>
       <div style={{ position: 'relative', display: 'grid', gridTemplateColumns: '1.05fr 1fr', gap: '48px', alignItems: 'center' }}>
         <div>
-          <p className="text-muted" style={{ fontSize: '13px', letterSpacing: '0.12em', textTransform: 'uppercase', margin: '0 0 22px' }}>
+          <p className="text-muted" style={{ fontSize: '16px', letterSpacing: '0.12em', textTransform: 'uppercase', margin: '0 0 22px' }}>
             Data &amp; Analytics Portfolio
           </p>
           <h1 style={{ fontSize: 'clamp(46px, 5.4vw, 78px)', lineHeight: 1.04, margin: '0 0 26px' }}>

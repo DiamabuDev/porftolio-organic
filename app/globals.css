@@ -9,10 +9,8 @@
   --color-surface: #ebddc5;
   --color-text: #201e1d;
   --color-accent: #6A1D2C;
-  --color-accent-2: #7a8a5e;
-  --color-accent-2-700: #566063;
+  --color-accent-text: #566063;
   --color-section-bg: #E9DDCD;
-  --color-divider: rgba(32, 30, 29, 0.16);
 }
 
 * {
@@ -89,7 +87,7 @@ a:hover {
 }
 
 .btn-secondary {
-  border-color: var(--color-divider);
+  border-color: var(--color-accent-text);
 }
 
 .btn-secondary:hover {

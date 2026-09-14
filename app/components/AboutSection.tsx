@@ -3,12 +3,12 @@
 export default function AboutSection() {
   return (
     <section id="about" style={{ maxWidth: '100%', margin: '0 auto', padding: '88px 32px' }}>
-      <p className="text-muted" style={{ fontSize: '13px', letterSpacing: '0.12em', textTransform: 'uppercase', margin: '0 0 32px' }}>
+      <p className="text-muted" style={{ fontSize: '16px', letterSpacing: '0.12em', textTransform: 'uppercase', margin: '0 0 32px' }}>
         About me
       </p>
       <div style={{ display: 'grid', gridTemplateColumns: '1.05fr 0.95fr', gap: '72px', alignItems: 'start' }}>
         <h2 style={{ fontSize: 'clamp(32px, 3.6vw, 50px)', lineHeight: 1.14, margin: 0 }}>
-          I came to data through <span style={{ color: 'var(--color-accent-2-700)' }}>law and policy</span>, which is why I start with the question, not the query.
+          I came to data through <span style={{ color: 'var(--color-accent-text)' }}>law and policy</span>, which is why I start with the question, not the query.
         </h2>
         <div>
           <p style={{ fontSize: '16.5px', lineHeight: 1.7 }}>

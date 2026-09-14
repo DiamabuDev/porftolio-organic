@@ -57,7 +57,7 @@ export default function BackgroundSection() {
 
   return (
     <section id="background" style={{ maxWidth: '100%', margin: '0 auto', padding: '96px 32px' }}>
-      <span className="tag tag-outline" style={{ padding: '8px 20px', fontSize: '13px' }}>
+      <span className="tag tag-outline" style={{ padding: '8px 20px', fontSize: '16px' }}>
         Education &amp; experience
       </span>
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '72px', marginTop: '44px' }}>
@@ -65,8 +65,8 @@ export default function BackgroundSection() {
           <h2 style={{ fontSize: '34px', margin: '0 0 28px' }}>Education</h2>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '26px' }}>
             {education.map((e, idx) => (
-              <div key={idx} style={{ background: 'var(--color-surface)', borderRadius: 'calc(var(--radius-lg) * 1.15)', padding: '24px 26px' }}>
-                <p style={{ fontSize: '12px', letterSpacing: '0.1em', textTransform: 'uppercase', margin: '0 0 8px', color: 'var(--color-accent-2-700)' }}>
+              <div key={idx} style={{ background: 'var(--color-section-bg)', borderRadius: '40px', padding: '24px 26px' }}>
+                <p style={{ fontSize: '12px', letterSpacing: '0.1em', textTransform: 'uppercase', margin: '0 0 8px', color: 'var(--color-accent-text)' }}>
                   {e.year}
                 </p>
                 <h4 style={{ fontSize: '21px', margin: '0 0 6px' }}>
@@ -75,7 +75,7 @@ export default function BackgroundSection() {
                 <p style={{ fontSize: '15px', margin: '0 0 8px', color: 'var(--color-accent-700)' }}>
                   {e.program}
                 </p>
-                <p style={{ fontSize: '14px', lineHeight: 1.6, margin: 0, opacity: 0.8 }}>
+                <p style={{ fontSize: '16px', lineHeight: 1.6, margin: 0, opacity: 0.8 }}>
                   {e.detail}
                 </p>
               </div>
@@ -86,8 +86,8 @@ export default function BackgroundSection() {
           <h2 style={{ fontSize: '34px', margin: '0 0 28px' }}>Experience</h2>
           <div style={{ display: 'flex', flexDirection: 'column', gap: 0 }}>
             {roles.map((r, idx) => (
-              <div key={idx} style={{ padding: '24px 0', borderTop: '1px solid var(--color-divider)' }}>
-                <p style={{ fontSize: '12px', letterSpacing: '0.1em', textTransform: 'uppercase', margin: '0 0 8px', color: 'var(--color-accent-2-700)' }}>
+              <div key={idx} style={{ padding: '24px 0', borderTop: idx > 0 ? '1px solid var(--color-accent-text)' : 'none' }}>
+                <p style={{ fontSize: '12px', letterSpacing: '0.1em', textTransform: 'uppercase', margin: '0 0 8px', color: 'var(--color-accent-text)' }}>
                   {r.years}
                 </p>
                 <h4 style={{ fontSize: '21px', margin: '0 0 4px' }}>
@@ -96,7 +96,7 @@ export default function BackgroundSection() {
                 <p style={{ fontSize: '14.5px', margin: '0 0 8px', color: 'var(--color-accent-700)' }}>
                   {r.org}
                 </p>
-                <p style={{ fontSize: '14px', lineHeight: 1.6, margin: 0, opacity: 0.8, maxWidth: '52ch' }}>
+                <p style={{ fontSize: '16px', lineHeight: 1.6, margin: 0, opacity: 0.8, maxWidth: '52ch' }}>
                   {r.detail}
                 </p>
               </div>

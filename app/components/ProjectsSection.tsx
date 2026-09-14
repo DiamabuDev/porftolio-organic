@@ -56,7 +56,7 @@ export default function ProjectsSection() {
     <section id="work" style={{ maxWidth: '100%', margin: '0 auto', padding: '104px 32px 64px' }}>
       <div style={{ display: 'flex', alignItems: 'flex-end', justifyContent: 'space-between', gap: '40px', marginBottom: '56px' }}>
         <div>
-          <p className="text-muted" style={{ fontSize: '13px', letterSpacing: '0.12em', textTransform: 'uppercase', margin: '0 0 16px' }}>
+          <p className="text-muted" style={{ fontSize: '16px', letterSpacing: '0.12em', textTransform: 'uppercase', margin: '0 0 16px' }}>
             Projects
           </p>
           <h2 style={{ fontSize: 'clamp(32px, 3.4vw, 46px)', margin: 0 }}>
@@ -100,17 +100,17 @@ export default function ProjectsSection() {
             </div>
             <div style={{ padding: '22px 12px 0' }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '14px' }}>
-                <span className="tag tag-accent" style={{ fontSize: '11.5px' }}>
+                <span className="tag tag-accent" style={{ fontSize: '13px' }}>
                   {p.tag}
                 </span>
-                <span className="text-muted" style={{ fontSize: '12px' }}>
+                <span className="text-muted" style={{ fontSize: '14px' }}>
                   {p.date}
                 </span>
               </div>
               <h3 style={{ fontSize: '24px', lineHeight: 1.2, margin: '0 0 12px' }}>
                 {p.title}
               </h3>
-              <p style={{ fontSize: '14.5px', lineHeight: 1.65, margin: '0 0 16px', opacity: 0.82 }}>
+              <p style={{ fontSize: '17px', lineHeight: 1.65, margin: '0 0 16px', opacity: 0.82 }}>
                 {p.summary}
               </p>
               <span className="proj-more" style={{ fontSize: '14px', color: 'var(--color-accent-700)', borderBottom: '1px solid var(--color-accent-300)', paddingBottom: '2px' }}>

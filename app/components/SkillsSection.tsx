@@ -22,7 +22,7 @@ export default function SkillsSection() {
 
   return (
     <section id="skills" style={{ background: 'var(--color-section-bg)', borderRadius: '48px', maxWidth: '100%', margin: '0 auto', padding: '64px 32px' }}>
-      <span className="tag tag-outline" style={{ padding: '8px 20px', fontSize: '13px' }}>
+      <span className="tag tag-outline" style={{ padding: '8px 20px', fontSize: '16px' }}>
         Technical skills
       </span>
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '44px 40px', marginTop: '40px' }}>
@@ -34,7 +34,7 @@ export default function SkillsSection() {
             <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', fontSize: '15px' }}>
               {group.items.map((item, itemIdx) => (
                 <div key={itemIdx} style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                  <span style={{ width: '8px', height: '8px', flex: 'none', borderRadius: '999px', background: 'var(--color-accent-2-700)' }}></span>
+                  <span style={{ width: '8px', height: '8px', flex: 'none', borderRadius: '999px', background: 'var(--color-accent-text)' }}></span>
                   <span>{item}</span>
                 </div>
               ))}
