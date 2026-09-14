@@ -10,6 +10,8 @@
   --color-text: #201e1d;
   --color-accent: #821D30;
   --color-accent-2: #7a8a5e;
+  --color-accent-2-700: #566063;
+  --color-section-bg: #E9DDCD;
   --color-divider: rgba(32, 30, 29, 0.16);
 }
 
@@ -136,7 +138,7 @@ a:hover {
   font-weight: 600;
   font-size: 28px;
   margin-right: auto;
-  color: var(--color-text);
+  color: var(--color-accent);
 }
 
 .nav a {

@@ -76,8 +76,8 @@ export default function ProjectsSection() {
             style={{
               display: 'block',
               color: 'inherit',
-              background: 'var(--color-surface)',
-              borderRadius: 'calc(var(--radius-lg) * 1.15)',
+              background: 'var(--color-section-bg)',
+              borderRadius: '40px',
               padding: '18px 18px 26px',
               marginTop: idx % 2 === 1 ? '72px' : '0px'
             }}

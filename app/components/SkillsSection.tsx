@@ -21,20 +21,20 @@ export default function SkillsSection() {
   ];
 
   return (
-    <section id="skills" style={{ background: 'var(--color-surface)', borderRadius: 'var(--radius-lg)', maxWidth: '100%', margin: '0 auto', padding: '64px 32px' }}>
+    <section id="skills" style={{ background: 'var(--color-section-bg)', borderRadius: '48px', maxWidth: '100%', margin: '0 auto', padding: '64px 32px' }}>
       <span className="tag tag-outline" style={{ padding: '8px 20px', fontSize: '13px' }}>
         Technical skills
       </span>
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '44px 40px', marginTop: '40px' }}>
         {skillGroups.map((group, idx) => (
           <div key={idx}>
-            <h3 style={{ fontSize: '22px', margin: '0 0 18px', color: 'var(--color-accent-700)' }}>
+            <h3 style={{ fontSize: '22px', margin: '0 0 18px', color: 'var(--color-accent)' }}>
               {group.title}
             </h3>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', fontSize: '15px' }}>
               {group.items.map((item, itemIdx) => (
                 <div key={itemIdx} style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                  <span style={{ width: '8px', height: '8px', flex: 'none', borderRadius: '999px', background: 'var(--color-accent-2-500)' }}></span>
+                  <span style={{ width: '8px', height: '8px', flex: 'none', borderRadius: '999px', background: 'var(--color-accent-2-700)' }}></span>
                   <span>{item}</span>
                 </div>
               ))}
