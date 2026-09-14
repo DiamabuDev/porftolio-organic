@@ -9,7 +9,7 @@ export default function CTASection() {
         </h2>
         <div>
           <p style={{ fontSize: '16.5px', lineHeight: 1.65, margin: '0 0 24px' }}>
-            Open to data analyst, business analyst, data engineer, and analytics engineer roles in Canada and remote. Tell me what you're trying to decide.
+            Open to data analyst, business analyst, data engineer, and analytics engineer roles in Canada and remote. Tell me what you&apos;re trying to decide.
           </p>
           <a className="btn btn-primary" href="mailto:diana.maldonado130@gmail.com" style={{ padding: '14px 28px' }}>
             diana.maldonado130@gmail.com
