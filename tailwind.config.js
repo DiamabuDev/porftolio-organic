@@ -50,7 +50,7 @@ module.exports = {
         },
       },
       fontFamily: {
-        caprasimo: ['Caprasimo', 'Georgia', 'serif'],
+        poppins: ['Poppins', 'system-ui', 'sans-serif'],
         figtree: ['Figtree', 'system-ui', 'sans-serif'],
       },
       spacing: {
