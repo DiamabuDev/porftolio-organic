@@ -1,16 +1,7 @@
-# Portfolio Organic
+# Portfolio
 
-A beautiful, modern portfolio website built with React, TypeScript, and Tailwind CSS. Features an organic design aesthetic with warm, earthy colors and smooth interactions.
+A beautiful, modern portfolio website built with React, TypeScript, and Tailwind CSS. Features a design aesthetic with warm, earthy colors and smooth interactions.
 
-## Features
-
-- ✨ Responsive design that works on all devices
-- 🎨 Organic design system with custom color palette
-- ⚡ Fast performance with Next.js
-- 🔤 Custom typography with Fraunces and Inter fonts
-- 📱 Mobile-first approach
-- ♿ Accessible components
-- 🎭 Smooth animations and transitions
 
 ## Tech Stack
 
@@ -18,7 +9,7 @@ A beautiful, modern portfolio website built with React, TypeScript, and Tailwind
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS
 - **Animations**: React Type Animation
-- **Fonts**: Google Fonts (Fraunces, Inter)
+- **Fonts**: Google Fonts (Poppins, Inter)
 
 ## Getting Started
 
@@ -61,14 +52,6 @@ portfolio-organic/
 ├── tsconfig.json
 └── README.md
 ```
-
-## Color Palette
-
-- **Cream**: `#F9F6F1` - Main background
-- **Moss**: `#5D6B5E` - Text and accents
-- **Terracotta**: `#C86F3A` - Primary accent
-- **Sage**: `#A8B6A6` - Secondary accent
-- **Charcoal**: `#2B2B2B` - Dark text
 
 ## Building
 
